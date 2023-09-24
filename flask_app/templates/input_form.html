@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block content %}
+<form method="POST" action="/predict">
+    <head>
+        <title>Show-Popularity-Predictor</title>
+    <head>
+    <body>
+        <h2>Show Popularity Predictor</h2>
+        <label for="imdb_rating">iMDB Rating:</label>
+        <input type="number" step="0.1" id="imdb_rating" name="imdb_rating" required><br><br>
+
+        <label for="imdb_votes">iMDB Votes:</label>
+        <input type="number" id="imdb_votes" name="imdb_votes" required><br><br>
+    
+        <label for="reddit_comments">Reddit Comments (Past Year):</label>
+        <input type="number" id="reddit_comments" name="reddit_comments" required><br><br>
+
+        <label for="twitter_followers">Twitter Followers:</label>
+        <input type="number" id="twitter_followers" name="twitter_followers" required><br><br>
+
+        <label for="runtime">Number of seasons:</label>
+        <input type="number" id="runtime" name="runtime" required><br><br>
+
+        <label for="streaming_service">Streaming Service:</label>
+        <select id="streaming_service" name="streaming_service" required>
+            <option value="Netflix">Netflix</option>
+            <option value="Amazon Prime">Amazon Prime</option>
+            <option value="Hulu">Hulu</option>
+            <option value="AMC +">AMC +</option>
+            <option value="Paramount +">Paramount +</option>
+            <option value="Apple TV +">Apple TV +</option>
+            <option value="HBO Max">HBO Max</option>
+            <option value="Discovery +">Discovery +</option>
+            <option value="Peacock">Peacock</option>
+            <option value="Disney +">Disney +</option>
+            <option value="Showtime">Showtime</option>
+            <option value="Starz">Starz</option>
+        </select><br><br>
+
+        <label for="genre">Primary Genre:</label>
+        <select id="genre" name="genre" required>
+            <option value="Drama">Drama</option>
+            <option value="Action">Action</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Crime">Crime</option>
+            <option value="Animation">Animation</option>
+            <option value="Documentary">Documentary</option>
+            <option value="Biography">Biography</option>
+            <option value="Adventure">Adventure</option>
+            <option value="Reality">Reality</option>
+        </select><br><br>
+
+        <label for="status">Show Status (Current or Finished):</label>
+        <select id="status" name="status" required>
+            <option value="current">Current</option>
+            <option value="finished">Finished</option>
+        </select><br><br>
+    
+        <input type="submit" value="Predict">
+    </body>
+</form>
+
+{% endblock %}
