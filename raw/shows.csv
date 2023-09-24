@@ -1,0 +1,151 @@
+name,ids,imdb_rank,years,genre,imdb_rating,imdb_votes
+The Last of Us,3581920,1,2023-,"['Action', 'Adventure', 'Drama', 'Horror', 'Sci-Fi', 'Thriller']",9.2,220703
+You,7335184,2,2018-,"['Crime', 'Drama', 'Romance', 'Thriller']",7.7,257575
+Poker Face,14269590,3,2023-,"['Crime', 'Drama', 'Mystery']",8.1,13047
+1923,18335752,4,2022-2023,"['Drama', 'Western']",8.6,17809
+Yellowstone,4236770,5,2018-2023,"['Drama', 'Western']",8.7,162886
+The White Lotus,13406094,6,2021-2023,"['Comedy', 'Drama']",7.9,150089
+Shrinking,15677150,7,2023-,"['Comedy', 'Drama']",7.8,9731
+The Walking Dead,1520211,8,2010-2022,"['Drama', 'Horror', 'Thriller']",8.1,1010218
+Star Trek: Picard,8806524,9,2020-2023,"['Action', 'Adventure', 'Drama', 'Sci-Fi']",7.3,74629
+Game of Thrones,944947,10,2011-2019,"['Action', 'Adventure', 'Drama', 'Fantasy']",9.2,2129030
+The Gold,14063678,11,2023-,"['Crime', 'Drama', 'History']",7.5,1425
+Breaking Bad,903747,12,2008-2013,"['Crime', 'Drama', 'Thriller']",9.5,1927986
+Wednesday,13443470,13,2022-,"['Comedy', 'Crime', 'Fantasy', 'Mystery']",8.2,278467
+Happy Valley,3428912,14,2014-2023,"['Crime', 'Drama', 'Thriller']",8.5,49841
+Criminal Minds,452046,15,2005-,"['Crime', 'Drama', 'Mystery', 'Thriller']",8.1,203742
+The Rookie,7587890,16,2018-,"['Action', 'Crime', 'Drama']",8,43789
+Farzi,15477488,17,2023-,"['Crime', 'Drama', 'Thriller']",8.5,15613
+Carnival Row,489974,18,2019-2023,"['Crime', 'Drama', 'Fantasy', 'Mystery', 'Thriller']",7.8,67524
+Your Honor,7440726,19,2020-2023,"['Crime', 'Drama', 'Thriller']",7.6,52924
+The Flash,3107288,20,2014-2023,"['Action', 'Adventure', 'Drama', 'Sci-Fi']",7.6,350232
+Ted Lasso,10986410,21,2020-,"['Comedy', 'Drama', 'Sport']",8.8,229940
+Better Call Saul,3032476,22,2015-2022,"['Crime', 'Drama']",8.9,550687
+The Boys,1190634,23,2019-,"['Action', 'Comedy', 'Crime', 'Drama', 'Sci-Fi']",8.7,529041
+The Legend of Vox Machina,11247158,24,2022-,"['Animation', 'Action', 'Adventure', 'Comedy', 'Fantasy']",8.4,31782
+The Mandalorian,8111088,25,2019-,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",8.7,500098
+Mayor of Kingstown,11712058,26,2021-,"['Crime', 'Drama', 'Thriller']",8.2,31507
+South Park,121955,27,1997-,"['Animation', 'Comedy']",8.7,375874
+Lockwood & Co,13802576,28,2023-,"['Action', 'Adventure', 'Drama', 'Fantasy', 'Horror', 'Mystery', 'Thriller']",7.5,13916
+Grey's Anatomy,413573,29,2005-,"['Drama', 'Romance']",7.6,315213
+The Office,386676,30,2005-2013,['Comedy'],9,619778
+Stranger Things,4574334,31,2016-2024,"['Drama', 'Fantasy', 'Horror', 'Mystery', 'Sci-Fi', 'Thriller']",8.7,1215803
+Ginny & Georgia,10813940,32,2021-,"['Comedy', 'Drama']",7.5,65898
+NCIS,364845,33,2003-,"['Action', 'Crime', 'Drama', 'Mystery', 'Thriller']",7.8,151008
+Clarkson's Farm,10541088,34,2021-,"['Documentary', 'Comedy', 'Reality-TV']",9,42616
+Tulsa King,16358384,35,2022-,"['Crime', 'Drama']",8.1,39880
+The Sopranos,141842,36,1999-2007,"['Crime', 'Drama']",9.2,410929
+Better,14466190,37,2023-,"['Crime', 'Drama', 'Thriller']",6.5,687
+New Amsterdam,7817340,38,2018-2023,['Drama'],8,42846
+True Detective,2356777,39,2014-2019,"['Crime', 'Drama', 'Mystery', 'Thriller']",8.9,581813
+Supernatural,460681,40,2005-2020,"['Drama', 'Fantasy', 'Horror', 'Mystery', 'Thriller']",8.4,452125
+C.B. Strike,4276618,41,2017-,"['Crime', 'Drama', 'Mystery', 'Thriller']",7.9,18819
+Succession,7660850,42,2018-,['Drama'],8.8,158342
+Law & Order: Special Victims Unit,203259,43,1999-,"['Crime', 'Drama', 'Mystery', 'Thriller']",8.1,110765
+House of the Dragon,11198330,44,2022-,"['Action', 'Adventure', 'Drama', 'Fantasy', 'Romance']",8.5,311638
+Death in Paradise,1888075,45,2011-,"['Comedy', 'Crime', 'Drama', 'Mystery', 'Thriller']",7.8,22877
+Peaky Blinders,2442560,46,2013-2022,"['Crime', 'Drama']",8.8,565223
+Young Sheldon,6226232,47,2017-,['Comedy'],7.6,66793
+Attack on Titan,898266,48,2013-2023,"['Animation', 'Action', 'Adventure', 'Drama', 'Fantasy', 'Horror']",9,383745
+Not Dead Yet,2560140,49,2023-,['Comedy'],6.5,1222
+Severance,18250904,50,2022-,"['Drama', 'Mystery', 'Sci-Fi', 'Thriller']",8.7,138337
+Velma,11280740,51,2023-,"['Animation', 'Adventure', 'Comedy', 'Crime', 'Mystery']",1.5,68818
+Friends,14153790,52,1994-2004,"['Comedy', 'Romance']",8.9,1010720
+The Big Bang Theory,108778,53,2007-2019,"['Comedy', 'Romance']",8.2,819057
+It's Always Sunny in Philadelphia,472954,54,2005-,['Comedy'],8.8,230379
+Accused,7949212,55,2023-,"['Crime', 'Drama']",7.2,1765
+The Blacklist,2741602,56,2013-2023,"['Crime', 'Drama', 'Mystery', 'Thriller']",8,254255
+Red Rose,19788500,57,2022-,"['Drama', 'Horror', 'Thriller']",6.4,2664
+Vikings,2306299,58,2013-2020,"['Action', 'Adventure', 'Drama', 'History', 'Romance', 'War']",8.5,542664
+Mayfair Witches,15428778,59,2023-,"['Drama', 'Fantasy', 'Horror']",6.3,5430
+Ghosts,11379026,60,2021-,"['Comedy', 'Fantasy']",7.8,19971
+Outer Banks,10293938,61,2020-,"['Action', 'Crime', 'Drama', 'Mystery', 'Romance', 'Thriller']",7.6,55586
+Abbott Elementary,14218830,62,2021-,['Comedy'],8.2,21483
+Modern Family,1442437,63,2009-2020,"['Comedy', 'Drama', 'Romance']",8.5,439641
+Hunters,7456722,64,2020-2023,"['Crime', 'Drama', 'Mystery']",7.2,47775
+Andor,9253284,65,2022-,"['Action', 'Adventure', 'Drama', 'Sci-Fi', 'Thriller']",8.4,121792
+The Crown,4786824,66,2016-2023,"['Biography', 'Drama', 'History']",8.6,226139
+The Law According to Lidia Poet,15441160,67,2023-,"['Biography', 'Crime', 'Drama', 'History', 'Mystery']",7.5,1808
+Star Wars: The Bad Batch,12708542,68,2021-,"['Animation', 'Action', 'Adventure', 'Drama', 'Fantasy', 'Sci-Fi']",7.8,38889
+Bones,460627,69,2005-2017,"['Comedy', 'Crime', 'Drama', 'Mystery', 'Romance']",7.8,163410
+That '70s Show,165598,70,1998-2006,"['Comedy', 'Drama', 'Romance']",8.1,180309
+Outlander,3006802,71,2014-,"['Drama', 'Fantasy', 'Romance']",8.4,162683
+Doctor Who,436992,72,2005-,"['Adventure', 'Drama', 'Sci-Fi']",8.6,228877
+Wolf Pack,15487922,73,2023-,"['Drama', 'Fantasy', 'Horror']",6.1,3212
+Jack Ryan,5057054,74,,,,
+The Chosen,9471404,75,2017-,"['Drama', 'History']",9.3,33166
+Euphoria,8772296,76,2019-,['Drama'],8.4,194929
+Cunk on Earth,16867040,77,2022-,"['Documentary', 'Comedy']",8.2,10021
+That '90s Show,15591076,78,2023-,"['Comedy', 'Drama', 'Romance']",6.4,21801
+Black Mirror,2085059,79,2011-2019,"['Drama', 'Mystery', 'Sci-Fi', 'Thriller']",8.8,558814
+Westworld,475784,80,2016-2022,"['Drama', 'Mystery', 'Sci-Fi']",8.5,510947
+The Wire,306414,81,2002-2008,"['Crime', 'Drama', 'Thriller']",9.3,345769
+Servant,8068860,82,2019-2023,"['Drama', 'Horror', 'Mystery', 'Thriller']",7.5,38883
+Will Trent,17543592,83,2023-,"['Crime', 'Drama']",7.6,4832
+Why Women Kill,9054904,84,2019-2021,"['Comedy', 'Crime', 'Drama']",8.3,25248
+Seinfeld,98904,85,1989-1998,['Comedy'],8.9,325498
+Suits,1632701,86,2011-2019,"['Comedy', 'Drama']",8.5,417908
+Vera,1693592,87,2011-,"['Crime', 'Drama', 'Mystery']",8.1,16217
+Extraordinary,14531842,88,2023-,"['Action', 'Adventure', 'Comedy', 'Fantasy', 'Sci-Fi']",7.9,6287
+Fauda,4565380,89,2015-,"['Action', 'Drama', 'Thriller']",8.3,31408
+Shameless,1586680,90,2011-2021,"['Comedy', 'Drama']",8.6,248326
+Midsomer Murders,118401,91,1997-,"['Crime', 'Drama', 'Mystery']",7.9,34859
+Yellowjackets,11041332,92,2021-,"['Drama', 'Horror', 'Mystery', 'Thriller']",7.9,51682
+Teen Wolf,1567432,93,2011-2017,"['Action', 'Drama', 'Fantasy', 'Romance', 'Thriller']",7.7,153160
+The Good Doctor,6470478,94,2017-,['Drama'],8.1,98128
+Vikings: Valhalla,11311302,95,2022-,"['Action', 'Adventure', 'Drama', 'History', 'Romance', 'War']",7.3,48490
+American Horror Story,1844624,96,2011-,"['Drama', 'Horror', 'Sci-Fi', 'Thriller']",8,323899
+Narcos,2707408,97,2015-2017,"['Biography', 'Crime', 'Drama', 'Thriller']",8.8,430580
+The Last Kingdom,4179452,98,2015-2022,"['Action', 'Drama', 'History']",8.5,144869
+Blue Bloods,1595859,99,2010-,"['Crime', 'Drama', 'Mystery', 'Thriller']",7.7,42110
+Lost,411008,100,2004-2010,"['Adventure', 'Drama', 'Fantasy', 'Mystery', 'Sci-Fi', 'Thriller']",8.3,560404
+The Lord of the Rings: The Rings of Power,7631058,101,2022-,"['Action', 'Adventure', 'Drama', 'Fantasy']",6.9,321035
+Slow Horses,5875444,102,2022-,"['Drama', 'Thriller']",7.9,37758
+Family Guy,182576,103,1999-,"['Animation', 'Comedy']",8.2,345748
+The X-Files,106179,104,1993-2018,"['Crime', 'Drama', 'Mystery', 'Sci-Fi', 'Thriller']",8.6,230395
+Hello Tomorrow!,14596212,105,2023-,"['Comedy', 'Drama']",6.4,844
+House M.D.,412142,106,,,,
+Law & Order,98844,107,1990-,"['Crime', 'Drama', 'Mystery', 'Thriller']",7.8,40194
+One Piece,388629,108,1999-,"['Animation', 'Action', 'Adventure', 'Comedy', 'Drama', 'Fantasy']",8.9,131285
+How I Met Your Father,14500082,109,2022-,"['Comedy', 'Drama']",5.5,19592
+National Treasure: Edge of History,12580982,110,2022-,"['Action', 'Adventure', 'Mystery', 'Thriller']",5.5,9645
+His Dark Materials,5607976,111,2019-,"['Adventure', 'Drama', 'Family', 'Fantasy']",7.8,77168
+The Ark,17371078,112,2023-,"['Drama', 'Mystery', 'Sci-Fi']",3.8,2027
+Lucifer,4052886,113,2016-2021,"['Crime', 'Drama', 'Fantasy']",8.1,330468
+The Witcher,5180504,114,2019-,"['Action', 'Adventure', 'Drama', 'Fantasy', 'Mystery']",8.1,508578
+Star Trek: The Next Generation,92455,115,1987-1994,"['Action', 'Adventure', 'Sci-Fi']",8.7,123868
+How I Met Your Mother,460649,116,2005-2014,"['Comedy', 'Romance']",8.3,692545
+Two and a Half Men,369179,117,2003-2015,"['Comedy', 'Romance']",7.1,267618
+Parks and Recreation,1266020,118,2009-2015,['Comedy'],8.6,264804
+Reacher,9288030,119,2022-,"['Action', 'Crime', 'Drama', 'Thriller']",8.1,131470
+The Sinner,6048596,120,2017-2021,"['Crime', 'Drama', 'Mystery', 'Thriller']",7.9,128277
+Physical: 100,25274446,121,2023-,['Reality-TV'],7.8,3509
+The Bear,14452776,122,2022-,"['Comedy', 'Drama']",8.4,82213
+The Simpsons,96697,123,1989-,"['Animation', 'Comedy']",8.7,412557
+Only Murders in the Building,12851524,124,2021-,"['Comedy', 'Crime', 'Drama', 'Mystery', 'Thriller']",8.1,108619
+Alice in Borderland,10795658,125,2020-,"['Action', 'Drama', 'Mystery', 'Sci-Fi', 'Thriller']",7.7,77901
+Rick and Morty,2861424,126,2013-,"['Animation', 'Adventure', 'Comedy', 'Sci-Fi']",9.1,538870
+Dear Edward,17543896,127,2023-,['Drama'],7.4,1004
+Community,1439629,128,2009-2015,['Comedy'],8.5,271152
+The Handmaid's Tale,5834204,129,2017-,"['Drama', 'Sci-Fi', 'Thriller']",8.4,243495
+Chicago Fire,2261391,130,2012-,"['Action', 'Drama']",8,58973
+La Brea,11640018,131,2021-,"['Drama', 'Mystery', 'Sci-Fi']",5.7,12646
+Buffy the Vampire Slayer,118276,132,1997-2003,"['Action', 'Drama', 'Fantasy', 'Romance']",8.3,149941
+The Peripheral,8291284,133,2022-,"['Drama', 'Mystery', 'Sci-Fi', 'Thriller']",7.7,63957
+Manifest,8421350,134,2018-,"['Drama', 'Mystery', 'Sci-Fi', 'Thriller']",7.1,70800
+Castle,1219024,135,2009-2016,"['Comedy', 'Crime', 'Drama', 'Mystery', 'Romance']",8.1,165041
+Fire Country,16098700,136,2022-,['Drama'],7.2,4497
+9-1-1: Lone Star,10323338,137,2020-,"['Action', 'Drama', 'Thriller']",7.1,16249
+Fargo,2802850,138,2014-,"['Crime', 'Drama', 'Thriller']",8.9,378579
+ER,108757,139,1994-2009,"['Drama', 'Romance']",7.9,63065
+FBI,7491982,140,2018-,"['Action', 'Crime', 'Drama', 'Mystery', 'Thriller']",7,19170
+Animal Control,21376524,141,2023-,['Comedy'],5.5,410
+Sex Education,7767422,142,2019-,"['Comedy', 'Drama']",8.3,290841
+Ozark,5071412,143,2017-2022,"['Crime', 'Drama', 'Thriller']",8.5,321754
+New Girl,1826940,144,2011-2018,"['Comedy', 'Romance']",7.8,229390
+Full Swing,17050700,145,2023-,"['Documentary', 'Sport']",8.4,1112
+The Recruit,16030542,146,2022-,"['Action', 'Adventure', 'Crime', 'Drama', 'Thriller']",7.4,30563
+Magnum P.I.,7942796,147,2018-2023,"['Action', 'Adventure', 'Crime']",6.1,14402
+Fear the Walking Dead,3743822,148,2015-2023,"['Drama', 'Horror', 'Sci-Fi', 'Thriller']",6.8,132664
+Funny Woman,15309272,149,2023-,['Comedy'],7.3,589
+Chicago P.D.,2805096,150,2014-,"['Action', 'Crime', 'Drama', 'Thriller']",8.1,39920
