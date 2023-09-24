@@ -15,14 +15,6 @@ from imdb import Cinemagoer
 # In[3]:
 
 
-sns.set_style('darkgrid') 
-plt.rc('axes', titlesize=18)    
-plt.rc('axes', labelsize=13)    
-plt.rc('xtick', labelsize=14)    
-plt.rc('ytick', labelsize=14)  
-plt.rc('legend', fontsize=13) 
-plt.rc('font', size=13)
-
 
 # # Show Data
 # Data was collected using [Cinemagoer](https://cinemagoer.github.io/) via imdbscrape.py and imported here.
@@ -32,7 +24,7 @@ plt.rc('font', size=13)
 # In[4]:
 
 
-shows = pd.read_csv('raw/shows.csv')
+shows = pd.read_csv('../raw/shows.csv')
 shows
 
 
@@ -41,7 +33,7 @@ shows
 # In[5]:
 
 
-meta = pd.read_csv('raw/metacritic.csv')
+meta = pd.read_csv('../raw/metacritic.csv')
 meta.columns = ['name', 'metacritic', 'meta_user']
 meta = meta.drop(0)
 
@@ -122,7 +114,7 @@ shows
 # In[12]:
 
 
-method = pd.read_csv('raw/svod.csv')
+method = pd.read_csv('../raw/svod.csv')
 method.columns = ['name', 'service']
 
 
@@ -146,7 +138,7 @@ shows
 # In[15]:
 
 
-reddit = pd.read_csv('raw/reddit.csv')
+reddit = pd.read_csv('../raw/reddit.csv')
 reddit.columns = ['name', 'reddit_comments']
 
 
@@ -161,7 +153,7 @@ shows
 # In[17]:
 
 
-twitter = pd.read_csv('raw/twitter.csv')
+twitter = pd.read_csv('../raw/twitter.csv')
 twitter.columns = ['name', 'twitter_followers']
 
 
@@ -198,9 +190,9 @@ numeric.describe().T
 # In[21]:
 
 
-plt.figure(figsize=(5,3), tight_layout=True)
-ax = sns.histplot(data=shows, x = 'imdb_rating')
-ax.set(title='Rating Histogram')
+
+
+
 
 
 
@@ -209,20 +201,11 @@ ax.set(title='Rating Histogram')
 # In[22]:
 
 
-plt.figure(figsize=(5,3), tight_layout=True)
-ax = sns.histplot(data=shows, x = 'imdb_votes')
-ax.set(title='iMDB votes Histogram')
-
 
 
 # Left skewed, may need to transform
 
 # In[23]:
-
-
-plt.figure(figsize=(5,3), tight_layout=True)
-ax = sns.histplot(data=shows, x = 'metacritic')
-ax.set(title='Metacritic score Histogram')
 
 
 
@@ -231,9 +214,9 @@ ax.set(title='Metacritic score Histogram')
 # In[24]:
 
 
-plt.figure(figsize=(5,3), tight_layout=True)
-ax = sns.histplot(data=shows, x = 'meta_user_rating')
-ax.set(title='Metacritic User Score Histogram')
+
+
+
 
 
 
@@ -242,9 +225,9 @@ ax.set(title='Metacritic User Score Histogram')
 # In[25]:
 
 
-plt.figure(figsize=(5,3), tight_layout=True)
-ax = sns.histplot(data=shows, x = 'reddit_comments')
-ax.set(title='Reddit Comments Histogram')
+
+
+
 
 
 
@@ -253,9 +236,9 @@ ax.set(title='Reddit Comments Histogram')
 # In[26]:
 
 
-plt.figure(figsize=(5,3), tight_layout=True)
-ax = sns.histplot(data=shows, x = 'twitter_followers')
-ax.set(title='Twitter Followers Histogram')
+
+
+
 
 
 
@@ -264,9 +247,9 @@ ax.set(title='Twitter Followers Histogram')
 # In[27]:
 
 
-scatter = sns.scatterplot(x='imdb_rating',y='imdb_rank', data=shows)
-scatter.set_title('iMDB rating vs Popularity rank')
-plt.gca().invert_yaxis()
+
+
+
 
 
 
@@ -276,9 +259,9 @@ plt.gca().invert_yaxis()
 # In[28]:
 
 
-scatter = sns.scatterplot(x='imdb_votes',y='imdb_rank', data=shows)
-scatter.set_title('iMDB votes vs Popularity rank')
-plt.gca().invert_yaxis()
+
+
+
 
 
 
@@ -288,9 +271,9 @@ plt.gca().invert_yaxis()
 # In[29]:
 
 
-scatter = sns.scatterplot(x='metacritic',y='imdb_rank', data=shows)
-scatter.set_title('Metacritic score vs Popularity rank')
-plt.gca().invert_yaxis()
+
+
+
 
 
 
@@ -298,9 +281,9 @@ plt.gca().invert_yaxis()
 # In[30]:
 
 
-scatter = sns.scatterplot(x='meta_user_rating',y='imdb_rank', data=shows)
-scatter.set_title('Metacritic user score vs Popularity rank')
-plt.gca().invert_yaxis()
+
+
+
 
 
 
@@ -310,9 +293,9 @@ plt.gca().invert_yaxis()
 # In[31]:
 
 
-scatter = sns.scatterplot(x=shows['reddit_comments'].apply(lambda x: np.log1p(x)),y='imdb_rank', data=shows)
-scatter.set_title('Reddit Comments vs Popularity rank')
-plt.gca().invert_yaxis()
+
+
+
 
 
 
@@ -322,9 +305,9 @@ plt.gca().invert_yaxis()
 # In[32]:
 
 
-scatter = sns.scatterplot(x=shows['twitter_followers'].apply(lambda x: np.log1p(x)),y='imdb_rank', data=shows)
-scatter.set_title('Reddit Comments vs Popularity rank')
-plt.gca().invert_yaxis()
+
+
+
 
 
 
@@ -380,9 +363,9 @@ categorical.status.describe()
 # In[39]:
 
 
-plt.figure(figsize=(5,3), tight_layout=True)
-ax = sns.histplot(data=categorical, x = 'status')
-ax.set(title='Show Status Histogram')
+
+
+
 
 
 
@@ -397,8 +380,7 @@ shows['status'] = categorical['status']
 # In[41]:
 
 
-sns.boxplot(x='status', y='imdb_rank', data=categorical)
-plt.gca().invert_yaxis()
+
 
 
 
@@ -440,18 +422,18 @@ shows.runtime.describe()
 # In[45]:
 
 
-plt.figure(figsize=(5,3), tight_layout=True)
-ax = sns.histplot(data=shows, x = 'runtime')
-ax.set(title='Show Runtime Histogram')
+
+
+
 
 
 
 # In[46]:
 
 
-scatter = sns.scatterplot(x='runtime',y='imdb_rank', data=shows)
-scatter.set_title('Series Run Time vs Popularity rank')
-plt.gca().invert_yaxis()
+
+
+
 
 
 
@@ -488,9 +470,9 @@ categorical.primary_genre.describe()
 # In[51]:
 
 
-plt.figure(figsize=(15,6), tight_layout=True)
-ax = sns.histplot(data=categorical, x = 'primary_genre')
-ax.set(title='Show Genre Histogram')
+
+
+
 
 
 
@@ -511,9 +493,9 @@ categorical.service.describe()
 # In[54]:
 
 
-plt.figure(figsize=(15,6), tight_layout=True)
-ax = sns.histplot(data=categorical, x = 'service')
-ax.set(title='Show Primary Streaming Histogram')
+
+
+
 
 
 

@@ -1,0 +1,24 @@
+beautifulsoup4==4.11.2
+
+certifi==2019.11.28
+chardet==3.0.4
+cinemagoer @ git+https://github.com/cinemagoer/cinemagoer@e4f39f42ce3d5873f2c9bdb48ff7355179a7c1e5
+Click==7.0
+Flask==1.1.1
+idna==2.8
+isoduration==20.11.0
+itsdangerous==1.1.0
+Jinja2==2.11.1
+MarkupSafe==1.1.1
+matplotlib==3.7.1
+matplotlib-inline==0.1.6
+MechanicalSoup==1.2.0
+numpy==1.23.4
+pandas==1.5.3
+python-dotenv==0.10.5
+requests==2.22.0
+scikit-learn==1.2.2
+scipy==1.10.1
+seaborn==0.12.2
+urllib3==1.25.8
+Werkzeug==0.16.1
