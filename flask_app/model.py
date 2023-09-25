@@ -740,7 +740,8 @@ def predictShow(rating, votes, service, comments, followers, status, runtime, ge
     fake_x.loc[len(fake_x) + 1] = feature_array
     preprocessed = pipeline.fit_transform(fake_x)
     prediction = linear_model.predict(preprocessed)
-    return round(prediction[len(prediction)-1],2)
+    normalized_prediction = 100 - (((prediction[len(prediction)-1] - 1)/(150 - 1)) * (100 - 1) + 1)
+    return round(normalized_prediction,2)
 
 # In[80]:
 
